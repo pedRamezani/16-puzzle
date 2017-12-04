@@ -47,7 +47,7 @@ function drawpuzzle() {
       pctx.fillRect(0,0,puzzle.width,puzzle.height);
       pctx.textBaseline ="middle";
       pctx.textAlign = "center";
-      pctx.font = canvas.width/8 + "px Arial"
+      pctx.font = puzzle.width/8 + "px Arial"
       pctx.fillStyle = "#FF4081";
       pctx.fillText("You have won!",puzzle.height/2,puzzle.width/2);
     }
